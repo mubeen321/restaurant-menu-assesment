@@ -8,10 +8,10 @@ function Home() {
     <div>
       <h2>Home</h2>
       <h4>Welcome to our store!</h4>
-      <button className='menu-button btn-wdt'><Link to="/menu">Menu</Link></button>
-      <button className='menu-button btn-wdt'> <Link to="/favorites">Favorites</Link></button>
-      <button className='menu-button btn-wdt'><Link to="/generator">Random Meals</Link></button>
-    </div>
+      <Link to="/menu"><button className='menu-button btn-wdt'>Menu</button></Link>
+      <Link to="/favorites"><button className='menu-button btn-wdt'> Favorites</button></Link>
+      <Link to="/generator"> <button className='menu-button btn-wdt'>Random Meals</button></Link>
+    </div >
   );
 }
 
